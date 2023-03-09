@@ -1,5 +1,6 @@
 import type { LoginParams } from '../interface/user/login';
 import type { Dispatch } from '@reduxjs/toolkit';
+import type { FormtestParams } from '../interface/formtest/formtest';
 
 import { apiLogin, apiLogout } from '../api/user.api';
 import { setUserItem } from './user.store';
